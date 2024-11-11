@@ -35,6 +35,7 @@ function App() {
       <Routes>
         {/* Add Routes component */}
         <Route
+          future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
           path="/"
           element={
             <div

@@ -70,7 +70,7 @@ function App() {
                 currencyOptions={options}
                 onCurrencyChange={(currency) => setTo(currency)}
                 selectCurrency={to}
-                amountDisable={true} // Disable input for converted amount
+                amountDisable={true}
               />
             </div>
 

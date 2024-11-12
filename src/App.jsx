@@ -2,7 +2,7 @@ import { useState } from "react";
 import { InputBox } from "./components";
 import useCurrencyInfo from "./hooks/useCurrencyInfo";
 import { BrowserRouter } from "react-router-dom"; // Added routes for routing
- 
+
 function App() {
   const [amount, setAmount] = useState(0);
   const [from, setFrom] = useState("USD");
@@ -37,7 +37,7 @@ function App() {
         <div
           className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+            backgroundImage: `url('https://images.pexels.com/photos/106152/euro-coins-currency-money-106152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
           }}
         >
           <div className="w-full">

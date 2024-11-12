@@ -32,7 +32,6 @@ function App() {
 
   return (
     <BrowserRouter basename="/CurrencyConverter/">
-      element=
       {
         <div
           className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
